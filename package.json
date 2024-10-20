@@ -1,0 +1,37 @@
+{
+  "name": "dinero-amigo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "lint": "eslint . --fix",
+    "postinstall": "nuxt prepare && simple-git-hooks"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^2.18.7",
+    "@nuxtjs/supabase": "^1.4.1",
+    "nuxt": "^3.13.2",
+    "nuxt-time": "^1.0.2",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "@nuxt/eslint": "^0.6.0",
+    "lint-staged": "^15.2.10",
+    "simple-git-hooks": "^2.11.1",
+    "typescript": "^5.6.3"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,ts,mjs,cjs,json,.*rc}": [
+      "npx eslint --fix"
+    ]
+  }
+}
