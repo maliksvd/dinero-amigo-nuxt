@@ -25,5 +25,9 @@ export default defineNuxtConfig({
       login: '/',
       callback: '/confirm'
     }
+  },
+
+  colorMode: {
+    preference: 'light'
   }
 })
