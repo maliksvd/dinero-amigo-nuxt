@@ -5,7 +5,7 @@
     user,
     () => {
       if (user.value) {
-        return navigateTo('/tasks')
+        return navigateTo('/transactions')
       }
     },
     { immediate: true }
