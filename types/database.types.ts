@@ -12,6 +12,7 @@ export type Database = {
       transactions: {
         Row: {
           account: string | null
+          amount: number | null
           category: string | null
           description: string | null
           id: number
@@ -21,6 +22,7 @@ export type Database = {
         }
         Insert: {
           account?: string | null
+          amount?: number | null
           category?: string | null
           description?: string | null
           id?: number
@@ -30,6 +32,7 @@ export type Database = {
         }
         Update: {
           account?: string | null
+          amount?: number | null
           category?: string | null
           description?: string | null
           id?: number
