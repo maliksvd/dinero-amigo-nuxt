@@ -14,10 +14,10 @@
     <div class="flex items-center gap-4">
       <UButton
         label="Add Transaction"
-        color="black"
+        color="white"
         @click="navigateTo('/add')"
       />
-      <UButton label="Sign Out" color="black" @click="signOut" />
+      <UButton label="Sign Out" color="white" @click="signOut" />
     </div>
   </div>
 </template>
