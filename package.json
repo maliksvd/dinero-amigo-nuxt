@@ -13,10 +13,14 @@
   "dependencies": {
     "@nuxt/ui": "^2.18.7",
     "@nuxtjs/supabase": "^1.4.1",
+    "@popperjs/core": "^2.11.8",
+    "date-fns": "^4.1.0",
     "nuxt": "^3.13.2",
     "nuxt-time": "^1.0.2",
+    "v-calendar": "^3.1.2",
     "vue": "latest",
-    "vue-router": "latest"
+    "vue-router": "latest",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
