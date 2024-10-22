@@ -18,6 +18,7 @@
         @click="navigateTo('/add')"
       />
       <UButton label="Sign Out" color="white" @click="signOut" />
+      <UButton label="Stats" color="white" to="/stats" icon="i-mdi-chart-bar" />
     </div>
   </div>
 </template>
